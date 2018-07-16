@@ -278,6 +278,19 @@ ul
     opacity: 0.8;
 }
 
+.sketch
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption
+{
+    text-align: center;
+    font-style: italic;
+}
+
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar 
