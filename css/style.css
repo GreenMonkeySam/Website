@@ -139,6 +139,14 @@ ul
     background-image: url("../images/background.jpg");
 }
 
+.lineBreak
+{
+    width: 80%;
+    border-bottom: 1px solid #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
 
 /* Footer */
 
