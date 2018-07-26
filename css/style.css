@@ -291,6 +291,35 @@ ul
     display: block;
     margin-left: auto;
     margin-right: auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.sketch:hover
+{
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.width60
+{
+    width: 60%;
+}
+
+.width40
+{
+    width: 40%;
+}
+
+.zoomed
+{
+    width: 100%;
+    z-index: 1000;
+    display: float;
 }
 
 .caption
