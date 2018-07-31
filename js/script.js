@@ -26,10 +26,8 @@ function adjustPortfolioSize()
     var frame = document.querySelector('#projectToDisplay');
     var box = document.querySelector('#buttonGrid');
     var boxWidth = box.offsetWidth;
-    var boxLeft = box.offsetLeft;
-    var diff = boxLeft - frame.offsetLeft;
 
-    frame.style.left = diff + "px";
+    frame.style.left = "-15px";
     frame.style.width = boxWidth + "px";
 }
 
@@ -58,12 +56,7 @@ function scrollToTop()
     });
 }
 
-function goToResume()
+function goTo(link, location)
 {
-      window.location = 'resume.html';
-}
-
-function goToUXPortfolio()
-{
-      window.location = 'uxDesign.html';
+    window.open(link, location);
 }
