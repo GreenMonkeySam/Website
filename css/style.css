@@ -165,6 +165,13 @@ ul
 
 /* About Me */
 
+.profile
+{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 .mainPageLink
 {
     width: 100%;

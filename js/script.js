@@ -13,12 +13,20 @@ $(window).scroll(function ()
 
 $( window ).resize(function() {
   adjustPortfolioSize();
+  adjustProfilePictureSize();
 });
 
 function loadPortfolioPage()
 {
     adjustPortfolioSize();
     scrollToProject();
+}
+
+function adjustProfilePictureSize
+{
+    var button = document.querySelector('mainPageLink');
+    var profile = document.querySelector('profile');
+    profile.style.width = button.style.width + "px";
 }
 
 function adjustPortfolioSize()
