@@ -22,7 +22,7 @@ function loadPortfolioPage()
     scrollToProject();
 }
 
-function adjustProfilePictureSize
+function adjustProfilePictureSize()
 {
     var button = document.querySelector('mainPageLink');
     var profile = document.querySelector('profile');
